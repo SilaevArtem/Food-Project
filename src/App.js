@@ -17,9 +17,6 @@ function App() {
           <Route path='/contacts' element = {<Contacts />} />
           <Route path='*' element = {<NotFound />} />
         </Routes>
-        <Link to='/'>Home</Link>
-        <Link to='/about' >About</Link>
-        <Link to='/contacts' >Contacts</Link>
       </main>
       <Footer />
     </>
